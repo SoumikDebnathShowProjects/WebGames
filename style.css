@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(98, 125, 125);
+    
+}
+h1{
+    text-align:  center;
+    color: rgb(199, 227, 251);
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.dice{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    
+}
+li{
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(221, 240, 199);
+}
